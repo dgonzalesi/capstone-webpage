@@ -17,8 +17,8 @@
 [Live Demo Link](https://livedemo.com)
 
 
-# Getting Started
-## To get a local copy up and running follow these simple example steps:
+## Getting Started
+### To get a local copy up and running follow these simple example steps:
 - Click the Code button in the top right corner
 - Download ZIP
 - Unzip the file: hello-microverse.zip
@@ -32,13 +32,18 @@
 
 ### Usage
 
-### Run tests
+### tests
+
+- ESlint
+- Stylelint
+- Lighthouse
+- Webhint
 
 ### Deployment
 
 
 
-## Authors
+## Author
 
 👤 **Daniel Gonzalez Sierra**
 
