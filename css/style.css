@@ -1,0 +1,32 @@
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#social-bar {
+    display: fixed;
+    justify-content: center;
+}
+
+.social-bar-list {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    background-color: dimgrey;
+    width: 100vw;
+    height: 30px;
+}
+
+.social-bar-item {
+    margin: 5px;
+}
+
+#navlogo {
+    height: 35px;
+    width: 15vw;
+    max-width: 70px;
+}
