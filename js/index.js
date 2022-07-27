@@ -38,7 +38,7 @@ const data = [
     description: ' is an American filmmaker and actor. He is known for directing the Spider-Man trilogy (2002–2007) and the MCU film Doctor Strange in the Multiverse of Madness. ',
     image: './img/speakers/sam.png',
   },
-]
+];
 
 speakers.innerHTML = data.map((array) => `
             <div class="speaker">
