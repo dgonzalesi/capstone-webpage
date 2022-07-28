@@ -20,6 +20,7 @@ footer {
 #social-bar {
   position: fixed;
   justify-content: center;
+  background-color: #555;
 }
 
 .color-1 {
@@ -40,7 +41,7 @@ footer {
   align-items: center;
   background-color: rgba(211, 211, 211, 0.9);
   width: 90vw;
-  height: 80vh;
+  height: 80%;
   position: fixed;
   box-shadow: #272a31 5px 5px 10px;
 }
@@ -68,14 +69,14 @@ footer {
 .social-bar-list {
   display: flex;
   justify-content: flex-end;
-  margin: 5px;
-  background-color: dimgrey;
-  width: 100vw;
+  min-width: 90vw;
+  width: 90%;
   height: 30px;
 }
 
 .social-bar-item {
-  margin: 5px;
+    margin-right: 5px;
+    padding-top: 5px;
 }
 
 #navlogo {
@@ -87,9 +88,19 @@ footer {
   display: flex;
   flex-direction: row;
   height: 5vh;
-  width: 100vw;
+  min-height: 55px;
+  max-width: 100vw;
   position: sticky;
-  padding-top: 1vh;
+}
+
+.anchor-social {
+    font-family: 'lato', sans-serif;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+
+.itemmarginright {
+  margin-right: 5px;
 }
 
 #hamburguerlogo {
@@ -114,7 +125,7 @@ footer {
   padding-top: 5vh;
 }
 
-.text {
+.textwelcome {
   background-color: #f7f7f7;
   border: #fff solid 5px;
   padding: 30px 45px 20px 20px;
@@ -125,6 +136,7 @@ footer {
 .sectionwelcome {
   background: url('../img/mobile_intro.background.png') no-repeat center center fixed;
   display: flex;
+  background-size: cover;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -363,7 +375,9 @@ section {
 }
 
 .aboutwelcome {
-  background: url('../img/about.background.png') no-repeat center center fixed;
+  background: url('../img/about.background.png') no-repeat center center rgba(85, 85, 85, 0.2);
+  height: 70vh;
+  max-height: 1080px;
 }
 
 #aboutemail {
@@ -413,4 +427,156 @@ section {
   .display {
     display: flex;
   }
+/* ! START OF ABOUT CSS */
+  #hamburguerlogo {
+    display: none;
+  }
+
+  .nodisplay {
+    display: inherit;
+  }
+
+  .nodisplaydesktop {
+    display: none;
+}
+
+  #elements-container {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 60px;
+    background-color: #fff;
+    justify-content: space-between;
+    position: relative;
+}
+
+.navelement {
+    font-family: 'lato', sans-serif;
+    color: #272a31;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1px;
+    padding-left: 4vw;
+    padding-right: 2vw;
+    min-height: 20px;
+    padding-top: 10px;
+    border: none;
+  }
+
+#listnavitems {
+    display: flex;
+    flex-direction: row;
+    /* justify-items: flex-end; */
+    /* align-items: flex-end; */
+    justify-content: flex-end;
+    min-height: 20px;
+}
+
+#deskelements {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 1.5rem;
+}
+
+.welcome {
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.listdesk {
+    font-family: 'lato', sans-serif;
+    padding: 1rem;
+    color: #fff;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+#navbar {
+    top: 47px;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 60px;
+
+}
+
+.desknav {
+    padding-top: 15px;
+}
+
+.contacttext {
+    margin-top: 5vh;
+    max-width: 700px;
+}
+
+.elements {
+    box-shadow: none;
+}
+
+.title {
+    font-size: 3rem;
+    line-height: 1.5;
+  }
+
+  .activities {
+    max-width: 250px;
+    min-height: 275px;
+    flex-direction: column;
+    margin-bottom: 5vh;
+  }
+
+  .desktopactivties {
+    display:flex;
+    flex-direction: row;
+    min-width: 50vw;
+  }
+
+  .schedule {
+    box-shadow: none;
+  }
+
+  #seeprogram {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .program {
+    padding-bottom: 10vh;
+  }
+  
+  #dinamic {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+
+  .speaker {
+    max-width: 40%;
+  }
+
+  .spekaerstext {
+    font-size: 0.7rem;
+  }
+
+  #logos {
+    background-color: #272a31;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  #footerimg {
+    max-width: 250px;
+    max-height: 150px;
+    margin-right: 3%;
+  }
+
+
+ /* ! END OF NEW ABOUT CSS */
 }

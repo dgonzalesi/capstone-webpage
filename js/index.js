@@ -1,3 +1,5 @@
+/* eslint-disable comma-dangle */
+/* eslint-disable semi */
 const speakers = document.getElementById('dinamic');
 const hamburger = document.getElementById('hamburguerlogo');
 const elementscontainer = document.getElementById('elements-container');

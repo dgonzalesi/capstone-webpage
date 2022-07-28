@@ -1,3 +1,4 @@
+/* eslint-disable semi */
 const hamburger = document.getElementById('hamburguerlogo');
 const elementscontainer = document.getElementById('elements-container');
 
