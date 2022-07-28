@@ -370,7 +370,7 @@ section {
   align-items: center;
 }
 
-.abouttitle {
+.centertext {
   text-align: center;
 }
 
@@ -378,6 +378,7 @@ section {
   background: url('../img/about.background.png') no-repeat center center rgba(85, 85, 85, 0.2);
   height: 70vh;
   max-height: 1080px;
+  min-height: 300px;
 }
 
 #aboutemail {
@@ -577,6 +578,61 @@ section {
     margin-right: 3%;
   }
 
+  #email {
+    text-decoration: underline;
+    font-weight: bolder;
+  }
+
+  #pragracompetitiondesk {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10vh;
+  }
+
+  #imgcompetition {
+    width: 30%;
+    height: 30%;
+    margin-bottom: 50px;
+    border: rgba(85, 85, 85, 0.3) solid 1px;
+  }
+
+  .footerdark {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    background-color: #272a31;
+  }
+
+  .footertext {
+    color: #fff;
+
+  }
+
+  .testimonalimgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .testimonialsingleimg {
+    padding: 1%;
+  }
+
+  .divline {
+    width: 2%;
+    height: 2px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  #paragraphtestimonial {
+    padding-bottom: 3%;
+  }
 
  /* ! END OF NEW ABOUT CSS */
 }
