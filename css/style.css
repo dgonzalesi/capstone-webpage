@@ -40,7 +40,7 @@ footer {
   flex-direction: column;
   align-items: center;
   background-color: rgba(211, 211, 211, 0.9);
-  min-height: 700px;
+  min-height: 60px;
   width: 90%;
   height: 80%;
   position: fixed;
@@ -151,7 +151,7 @@ footer {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -173,7 +173,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 10vh;
+  padding-bottom: 5vh;
   height: 70vh;
   max-height: 1080px;
   min-height: 550px;
@@ -201,7 +201,6 @@ footer {
   align-items: center;
   justify-content: center;
   padding-bottom: 12vh;
-  padding-top: 12vh;
   min-height: auto;
 }
 
@@ -448,7 +447,7 @@ section {
   background: url('../img/about.background.png') no-repeat center center rgba(85, 85, 85, 0.2);
   height: 70vh;
   max-height: 1080px;
-  min-height: 900px;
+  min-height: 450px;
   margin-bottom: 5vh;
 }
 
@@ -484,6 +483,11 @@ section {
 .testimonalimgs {
   width: 100%;
   margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .imgtestimonals {
@@ -553,7 +557,7 @@ section {
 
   .welcome {
     margin-top: 10vh;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
   }
 
   .listdesk {
