@@ -27,6 +27,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet" />
 
+    <!-- Font awesome - Icons -->
+    <script src="https://kit.fontawesome.com/841b60bdd5.js" crossorigin="anonymous"></script>
+
     <!-- Favicon -->
     <link rel="icon" href="./img/favicon.marvel.png"> 
 
@@ -35,61 +38,55 @@
   </head>
   <body>
     <main>
-        <!-- Social Bar -->
-        <!-- <div id="social-bar" class="nodisplay display padding-sides">
+        <div id="social-bar" class="padding-sides nodisplay">
             <ul class="social-bar-list">
                 <li class="social-bar-item">
-                    <a href="https://www.facebook.com/marvel/" target="_blank">
+                    <a class="color-3 anchor-social itemmarginright" href="https://www.facebook.com/marvel/" target="_blank">
                         <i class="fab fa-facebook-f"></i>
                     </a>
                 </li>
                 <li class="social-bar-item">
-                    <a href="https://twitter.com/marvel" target="_blank">
+                    <a class="color-3 anchor-social itemmarginright" href="https://twitter.com/marvel" target="_blank">
                         <i class="fab fa-twitter"></i>
                     </a>
                 </li>
                 <li class="social-bar-item">
-                    <a href="https://www.instagram.com/marvel/" target="_blank">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                </li>
-                <li class="social-bar-item">
-                    <a href="https://www.youtube.com/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw" target="_blank">
+                    <a class="color-3 anchor-social itemmarginright" href="https://www.youtube.com/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw" target="_blank">
                         English</i>
                     </a>
                 </li>
                 <li class="social-bar-item">
-                    <a href="https://www.youtube.com/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw" target="_blank">
+                    <a class="color-3 anchor-social itemmarginright" href="https://www.youtube.com/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw" target="_blank">
                         My Page</i>
                     </a>
                 </li>
                 <li class="social-bar-item">
-                    <a href="#" target="_blank">
+                    <a class="color-3 anchor-social" href="#" target="_blank">
                         Logout</i>
                     </a>
                 </li>
             </ul>
-        </div> -->
-
-        <!-- <a class="navbar-brand nodisplay display" id="marvellogo" href="#"><img id="navlogo" src="./img/marvel.logo.lg.png" alt="marvel logo"></a> -->
-        <!-- End of Social Bar -->
+        </div>
+        <nav class="padding-sides" id="navbar">
+            <img id="hamburguerlogo" src="./img/mobile_menu.png" alt="" class="hamburger nodisplaydesktop">
+            <div id="elements-container" class="elements nodisplay">
+                <a class="nodisplay" id="" href="./index.html"><img id="navlogo" src="./img/marvel.logo.lg.png" alt="marvel logo"></a>
+                <ul id="listnavitems">
+                        <li class="navelement"><a href="./About.html" class="navlink color-1">About</a></li>
+                        <li class="navelement">Program</li>
+                        <li class="navelement">Join</li>
+                        <li class="navelement">Sponsor</li>
+                        <li class="navelement">News</li>
+                </ul>
+            </div>
+        </nav>
+    <!-- End of Nav tabs -->
     <section class="sectionwelcome">
-        <h2 class="nodisplay">Welcome</h2>
-        <!-- Nav tabs -->
-            <nav class="padding-sides" id="navbar">
-                <img id="hamburguerlogo" src="./img/mobile_menu.png" alt="" class="hamburger">
-                <div id="elements-container" class="elements nodisplay">
-                    <ul>
-                            <li class="navelement color-2"><a href="./index.html" class="navlink">Home</a></li>
-                            <li class="navelement color-2"><a href="./About.html" class="navlink">about</a></li>
-                    </ul>
-                </div>
-            </nav>
-        <!-- End of Nav tabs -->
+        <h2 class="nodisplay nodisplaydesktop">Welcome</h2>
         <div id="welcomeid" class="welcome padding-sides">
             <h2 class="subtitle color-2">"Hello! Sharing world"</h2>
-            <h1 class="title">THE MARVEL CONVENTION GLOBAL SUMMIT <br> 2022</h1>
-            <p class="text color-1">A joyful celebration in the value of openness and sharing, creating a positive changue with people from all over the world that will take place in January in San Diego, California U.S.</p>
+            <h1 class="title">THE MARVEL CONVENTION <br class="nodisplay"> GLOBAL SUMMIT <br> 2022</h1>
+            <p class="textwelcome color-1">A joyful celebration in the value of openness and sharing, creating a positive changue with people from all over the world that will take place in January in San Diego, California U.S.</p>
             <h3 class="date color-4"> 2023.01.01(THU) ~ 03(SUN)</h3>
             <h4 class="location color-4">@ San Diego Convention Center, California. </h4>
         </div>
@@ -98,50 +95,42 @@
         <div class="schedule">
             <h3 id="programsubtitle" class="headders">Main Program</h3>
             <div class="divline"></div>
-            <div class="activities">
-                <img class="programicon" src="./img/lecture.icon.png" alt="">
-                <h3 class="activity-title color-2">Welcome</h3>
-                <p class="programtext">Welcome to the event in behalf of the Marvel community.</p>
-            </div>
-            <div class="activities">
-                <img class="programicon" src="./img/exhibition.icon.png" alt="">
-                <h3 class="activity-title color-2">CC <br>Exhibition</h3>
-                <p class="programtext">Appreciate various creations of cosplay artists, organized by Fans.</p>
-            </div>
-            <div class="activities">
-                <img class="programicon" src="./img/forum.icon.png" alt="">
-                <h3 class="activity-title color-2">Avengers<br> Panel</h3>
-                <p class="programtext">A panel with our speakers discusting the future of the MCU.</p>
-            </div>
-            <div class="activities">
-                <img class="programicon" src="./img/workshop.icon.png" alt="">
-                <h3 class="activity-title color-2">Meet & Greet</h3>
-                <p class="programtext">A space for everybody meet their favourite actor, take some pictures and buy some memorabilia.</p>
-            </div>
-            <div class="activities">
-                <img class="programicon" src="./img/ignite.icon.png" alt="">
-                <h3 class="activity-title color-2">Party</h3>
-                <p class="programtext">Time to relax and to enjoy with music & friends.</p>
+            <div class="desktopactivties">
+                <div class="activities">
+                    <img class="programicon" src="./img/lecture.icon.png" alt="">
+                    <h3 class="activity-title color-2">Welcome</h3>
+                    <p class="programtext">Welcome to the event in behalf of the Marvel community.</p>
+                </div>
+                <div class="activities">
+                    <img class="programicon" src="./img/exhibition.icon.png" alt="">
+                    <h3 class="activity-title color-2">CC <br>Exhibition</h3>
+                    <p class="programtext">Appreciate various creations of cosplay artists, organized by Fans.</p>
+                </div>
+                <div class="activities">
+                    <img class="programicon" src="./img/forum.icon.png" alt="">
+                    <h3 class="activity-title color-2">Avengers<br> Panel</h3>
+                    <p class="programtext">A panel with our speakers discusting the future of the MCU.</p>
+                </div>
+                <div class="activities">
+                    <img class="programicon" src="./img/workshop.icon.png" alt="">
+                    <h3 class="activity-title color-2">Meet & Greet</h3>
+                    <p class="programtext">A space for everybody meet their favourite actor, take some pictures and buy some memorabilia.</p>
+                </div>
+                <div class="activities">
+                    <img class="programicon" src="./img/ignite.icon.png" alt="">
+                    <h3 class="activity-title color-2">Party</h3>
+                    <p class="programtext">Time to relax and to enjoy with music & friends.</p>
+                </div>
             </div>
         </div>
-        <button type="button" class="programlink">Join Marvel Convention 2022.</button>
+        <button type="button" class="programlink nodisplaydesktop">Join Marvel Convention 2022.</button>
+        <a href="#" class="nodisplay" id="seeprogram">SEE THE WHOLE PROGRAM</a>
     </section>
     <section id="speakers" class="sectionstyle padding-sides">
         <h3 class="headders color-1" id="feature">Feature speakers</h3>
         <div class="divline"></div>
         <div id="dinamic">
-            
-            <div class="speaker">
-                <img class="speakerimg" src="./img/speakers/thor.png" alt="">
-                <div class="speakertext">
-                    <h3 class="name">This is a example</h3>
-                    <h4 class="participation">Berkman Professor of Entre prenurial Legal Studies</h4>
-                    <div class="linelight"></div>
-                    <p class="spekaerstext">This is a example of how the text is gona look.</p>
-                </div>
-            </div>
         </div>
-        <!-- !<button id="more"> More (arrow) </button> -->
 
     </section>
     <section class="sectionstyle padding-sides" id="partners">
@@ -160,7 +149,7 @@
 
   <footer>
     <section class="footerlight padding-sides ">
-        <h3 class="nodisplay">Footer</h3>
+        <h3 class="nodisplay nodisplaydesktop">Footer</h3>
         <img id="footerimg" src="./img/marvel.logo.lg.png" alt="marvel logo">
         <div class="textfooter">
             <p class="paragrphtext color-1">2020 Creative Commons. All rights reserved to Disney ©.</p>
