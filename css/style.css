@@ -183,6 +183,11 @@ footer {
   width: 100vw;
 }
 
+#welcomediv {
+  height: auto;
+  width: 100vw;
+}
+
 #aboutid {
   height: auto;
   width: 100vw;
