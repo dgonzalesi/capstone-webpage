@@ -2,7 +2,7 @@
 
 # Marvel Conference Web Page!
 
-> We build a webpage for a marvel conference, using data from the Marvel Universe.
+> We build a webpage for a marvel conference, using data from the Marvel Universe and a design of [Cindy Shin](https://www.behance.net/adagio07).
 
 
 ## Built With
@@ -10,7 +10,6 @@
 - HTML
 - Javascript
 - CSS
-- Bootstrap
 
 ## Live Demo (if available)
 
@@ -24,14 +23,6 @@
 - Unzip the file: hello-microverse.zip
 - Open index.html with your web browser
 
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
 ### tests
 
 - ESlint
@@ -41,7 +32,7 @@
 
 ### Deployment
 
-
+[Click Here](https://dgonzalesi.github.io/capstone-webpage/)
 
 ## Author
 
