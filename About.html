@@ -26,6 +26,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet" />
+
+    <!-- Font awesome - Icons -->
+    <script src="https://kit.fontawesome.com/841b60bdd5.js" crossorigin="anonymous"></script>
+
     <!-- Favicon -->
     <link rel="icon" href="./img/favicon.marvel.png"> 
 
@@ -63,19 +67,21 @@
         </div>
         <nav class="padding-sides" id="navbar">
             <img id="hamburguerlogo" src="./img/mobile_menu.png" alt="" class="hamburger nodisplaydesktop">
+            
             <div id="elements-container" class="elements nodisplay">
                 <a class="nodisplay" id="" href="./index.html"><img id="navlogo" src="./img/marvel.logo.lg.png" alt="marvel logo"></a>
                 <ul id="listnavitems">
-                        <li class="navelement"><a href="./About.html" class="navlink color-1">About</a></li>
-                        <li class="navelement">Program</li>
-                        <li class="navelement">Join</li>
-                        <li class="navelement">Sponsor</li>
-                        <li class="navelement">News</li>
+                        <li class="navelement"><a href="./About.html" id="aboutliactive" class="navstyle color-1">About</a></li>
+                        <li class="navelement"><a href="./index.html" class="navstyle color-1">Home</a></li>
+                        <li class="navelement"><a href="" class="navstyle color-1">Join</a></li>
+                        <li class="navelement"><a href="#" class="navstyle color-1">Sponsor</a></li>
+                        <li class="navelement"><a href="#" class="navstyle color-1">News</a></li>
+                        <li id="closingli" class="navelement nodisplaydesktop"><i id="closingbutton" class="fa-solid fa-xmark"></i></li>
                 </ul>
             </div>
         </nav>
         <!-- End of Nav tabs -->
-    <section class="sectionwelcome aboutwelcome">
+    <section class="sectionwelcome aboutwelcome" id="aboutid">
         <div class="welcome padding-sides about">
             <h2 class="subtitle color-2 ">"Hello! Sharing world"</h2>
             <h1 class="title centertext">THE MARVEL CONVENTION GLOBAL SUMMIT 2022</h1>
@@ -99,14 +105,14 @@
         <div class="divline"></div>
         <p id="paragraphtestimonial" class="textlogo color-4"> Take a look at the two last The Marvel Conventions which took place in Chicago and Europe.</p>
         <div class="testimonalimgs">
-            <img class="testimonialsingleimg" src="./img/testimonial1.about.png" alt="picture testimonial one" class="imgtestimonals">
-            <img class="testimonialsingleimg" src="./img/testimonial2.about.png" alt="picture testimonal two" class="imgtestimonals">
+            <img class="testimonialsingleimg imgtestimonals" src="./img/testimonial1.about.png" alt="picture testimonial one">
+            <img class="testimonialsingleimg imgtestimonals" src="./img/testimonial2.about.png" alt="picture testimonal two">
         </div>
     </section>
 
 
     <section class="sectionstyle padding-sides nodisplaydesktop" id="partners">
-        <div class="nodisplaydesktop">
+        <div class="subpartners nodisplaydesktop">
             <h3 id="partnerstitle" class="headders nodisplaydesktop">Partners</h3>
             <div class="divline nodisplaydesktop"></div>
             <div id="logos" class="nodisplaydesktop">

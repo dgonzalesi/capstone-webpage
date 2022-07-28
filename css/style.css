@@ -17,6 +17,8 @@ footer {
   min-height: 200px;
 }
 
+
+
 #social-bar {
   position: fixed;
   justify-content: center;
@@ -54,11 +56,42 @@ footer {
   line-height: 7rem;
   padding-left: 20vw;
   padding-right: 20vw;
-  border-bottom: #ec5242 solid 2px;
+}
+
+.navstyle {
+    font-family: 'COCOGOOSE', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.5rem;
+    line-height: 7rem;
+    padding-left: 20vw;
+    padding-right: 20vw;
 }
 
 .color-4 {
   color: #555;
+}
+
+#closingli {
+    border: none;
+    text-align: center;
+    font-size: 3.5rem;
+}
+#listnavitems > :hover{
+    color: #ec5242;
+    transition: ease-in 0.2s;
+}
+
+#aboutli {
+    color: #272a31;
+}
+
+#aboutliactive {
+    color: #ec5242;
+}
+
+#homeactive {
+    color: #ec5242;
 }
 
 .padding-sides {
@@ -140,8 +173,32 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding-bottom: 12vh;
+  padding-bottom: 10vh;
+  height: 70vh;
+  max-height: 1080px;
+  min-height: 550px;
 }
+
+#welcomeid {
+    height: auto;
+    width: 100vw;
+}
+
+#aboutid {
+    height: auto;
+    width: 100vw;
+}
+
+.sectionlogo {
+    display: flex;
+    background-size: cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 12vh;
+    padding-top: 12vh;
+    min-height: fit-content;
+  }
 
 .date {
   color: #555;
@@ -334,6 +391,14 @@ section {
   display: flex;
 }
 
+.subpartners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
 #partnerstitle {
   color: #fff;
 }
@@ -378,7 +443,8 @@ section {
   background: url('../img/about.background.png') no-repeat center center rgba(85, 85, 85, 0.2);
   height: 70vh;
   max-height: 1080px;
-  min-height: 300px;
+  min-height: 900px;
+  margin-bottom: 5vh;
 }
 
 #aboutemail {
@@ -420,8 +486,9 @@ section {
   height: 100%;
   max-height: 252px;
   max-width: 455px;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  padding-bottom: 5px;
 }
 
 @media screen and (min-width: 760px) {
@@ -499,7 +566,6 @@ section {
     justify-content: space-between;
     background-color: #fff;
     height: 60px;
-
 }
 
 .desknav {
@@ -530,7 +596,10 @@ section {
   .desktopactivties {
     display:flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5px;
     min-width: 50vw;
+    justify-content: center;
   }
 
   .schedule {
@@ -633,6 +702,20 @@ section {
   #paragraphtestimonial {
     padding-bottom: 3%;
   }
+
+  .navstyle {
+    font-family: 'lato', sans-serif;
+    color: #272a31;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 1px;
+    padding-left: 4vw;
+    padding-right: 2vw;
+    min-height: 20px;
+    padding-top: 10px;
+    border: none;
+}
 
  /* ! END OF NEW ABOUT CSS */
 }
