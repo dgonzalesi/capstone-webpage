@@ -1,9 +1,10 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>The Marvel Convention</title>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
+    <title>The Marvel Convention</title>
+    <script src="js/index.js" defer></script>
+    <!-- Required meta tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS v5.2.0-beta1 -->
@@ -14,45 +15,158 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 
+    <!-- Custom CSS -->
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- Google Fonts -->
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="./img/favicon.marvel.png"> 
+
+
+
   </head>
   <body>
-    <!-- Nav tabs -->
-    <ul class="nav nav-tabs" id="navId" role="tablist">
-        <li class="nav-item">
-            <a href="#tab1Id" class="nav-link active" data-bs-toggle="tab">Active</a>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="#tab2Id">Action</a>
-                <a class="dropdown-item" href="#tab3Id">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#tab4Id">Action</a>
-            </div>
-        </li>
-        <li class="nav-item" role="presentation">
-            <a href="#tab5Id" class="nav-link" data-bs-toggle="tab">Another link</a>
-        </li>
-        <li class="nav-item" role="presentation">
-            <a href="#" class="nav-link disabled" data-bs-toggle="tab">Disabled</a>
-        </li>
-    </ul>
-    
-    <!-- Tab panes -->
-    <div class="tab-content" id="myTabContent">
-        <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
-        <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
-        <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
-        <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
-        <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
-    </div>
-    
-    <!-- (Optional) - Place this js code after initializing bootstrap.min.js or bootstrap.bundle.min.js -->
-    <script>
-        var triggerEl = document.querySelector('#navId a')
-        bootstrap.Tab.getInstance(triggerEl).show() // Select tab by name
-    </script>
-    
+    <main>
+        <!-- Social Bar -->
+        <!-- <div id="social-bar" class="nodisplay display padding-sides">
+            <ul class="social-bar-list">
+                <li class="social-bar-item">
+                    <a href="https://www.facebook.com/marvel/" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="social-bar-item">
+                    <a href="https://twitter.com/marvel" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-bar-item">
+                    <a href="https://www.instagram.com/marvel/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-bar-item">
+                    <a href="https://www.youtube.com/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw" target="_blank">
+                        English</i>
+                    </a>
+                </li>
+                <li class="social-bar-item">
+                    <a href="https://www.youtube.com/channel/UC-lHJZR3Gqxm24_Vd_AJ5Yw" target="_blank">
+                        My Page</i>
+                    </a>
+                </li>
+                <li class="social-bar-item">
+                    <a href="#" target="_blank">
+                        Logout</i>
+                    </a>
+                </li>
+            </ul>
+        </div> -->
 
-  </body>
+        <!-- <a class="navbar-brand nodisplay display" id="marvellogo" href="#"><img id="navlogo" src="./img/marvel.logo.lg.png" alt="marvel logo"></a> -->
+        <!-- End of Social Bar -->
+    <section class="sectionwelcome">
+        <h2 class="nodisplay">Welcome</h2>
+        <!-- Nav tabs -->
+            <nav class="padding-sides" id="navbar">
+                <img id="hamburguerlogo" src="./img/mobile_menu.png" alt="" class="hamburger">
+                <div id="elements-container" class="elements nodisplay">
+                    <ul>
+                            <li class="navelement color-2"><a href="./index.html" class="navlink">Home</a></li>
+                            <li class="navelement color-2"><a href="./About.html" class="navlink">about</a></li>
+                    </ul>
+                </div>
+            </nav>
+        <!-- End of Nav tabs -->
+        <div id="welcomeid" class="welcome padding-sides">
+            <h2 class="subtitle color-2">"Hello! Sharing world"</h2>
+            <h1 class="title">THE MARVEL CONVENTION GLOBAL SUMMIT <br> 2022</h1>
+            <p class="text color-1">A joyful celebration in the value of openness and sharing, creating a positive changue with people from all over the world that will take place in January in San Diego, California U.S.</p>
+            <h3 class="date color-4"> 2023.01.01(THU) ~ 03(SUN)</h3>
+            <h4 class="location color-4">@ San Diego Convention Center, California. </h4>
+        </div>
+    </section>
+    <section class="program padding-sides">
+        <div class="schedule">
+            <h3 id="programsubtitle" class="headders">Main Program</h3>
+            <div class="divline"></div>
+            <div class="activities">
+                <img class="programicon" src="./img/lecture.icon.png" alt="">
+                <h3 class="activity-title color-2">Welcome</h3>
+                <p class="programtext">Welcome to the event in behalf of the Marvel community.</p>
+            </div>
+            <div class="activities">
+                <img class="programicon" src="./img/exhibition.icon.png" alt="">
+                <h3 class="activity-title color-2">CC <br>Exhibition</h3>
+                <p class="programtext">Appreciate various creations of cosplay artists, organized by Fans.</p>
+            </div>
+            <div class="activities">
+                <img class="programicon" src="./img/forum.icon.png" alt="">
+                <h3 class="activity-title color-2">Avengers<br> Panel</h3>
+                <p class="programtext">A panel with our speakers discusting the future of the MCU.</p>
+            </div>
+            <div class="activities">
+                <img class="programicon" src="./img/workshop.icon.png" alt="">
+                <h3 class="activity-title color-2">Meet & Greet</h3>
+                <p class="programtext">A space for everybody meet their favourite actor, take some pictures and buy some memorabilia.</p>
+            </div>
+            <div class="activities">
+                <img class="programicon" src="./img/ignite.icon.png" alt="">
+                <h3 class="activity-title color-2">Party</h3>
+                <p class="programtext">Time to relax and to enjoy with music & friends.</p>
+            </div>
+        </div>
+        <button type="button" class="programlink">Join Marvel Convention 2022.</button>
+    </section>
+    <section id="speakers" class="sectionstyle padding-sides">
+        <h3 class="headders color-1" id="feature">Feature speakers</h3>
+        <div class="divline"></div>
+        <div id="dinamic">
+            
+            <div class="speaker">
+                <img class="speakerimg" src="./img/speakers/thor.png" alt="">
+                <div class="speakertext">
+                    <h3 class="name">This is a example</h3>
+                    <h4 class="participation">Berkman Professor of Entre prenurial Legal Studies</h4>
+                    <div class="linelight"></div>
+                    <p class="spekaerstext">This is a example of how the text is gona look.</p>
+                </div>
+            </div>
+        </div>
+        <!-- !<button id="more"> More (arrow) </button> -->
+
+    </section>
+    <section class="sectionstyle padding-sides" id="partners">
+        <h3 id="partnerstitle" class="headders">Partners</h3>
+        <div class="divline"></div>
+        <div id="logos">
+            <a href="https://www.marvel.com/teams-and-groups/a-i-m" class="imgpartner"><img src="./img/partners/aim.png" alt="aim logo"></a>
+            <a href="https://www.thedailybugle.net/" class="imgpartner"><img src="./img/partners/DailyBugle.png" alt="Daily Bugle logo"></a>
+            <a href="https://en.wikipedia.org/wiki/Oscorp"><img src="./img/partners/oscorp.png" alt="Oscorp Logo"></a>
+            <img src="./img/partners/RandCorp.png" alt="" class="imgpartner">
+            <a class="imgpartner" href="https://en.wikipedia.org/wiki/S.H.I.E.L.D."><img src="./img/partners/shield.png" alt="" ></a>
+            <a class="imgpartner" href="https://starkindustries.com/"><img src="./img/partners/stark.png" alt="Stark Logo"></a>
+        </div>
+    </section>
+    </main>
+
+  <footer>
+    <section class="footerlight padding-sides ">
+        <h3 class="nodisplay">Footer</h3>
+        <img id="footerimg" src="./img/marvel.logo.lg.png" alt="marvel logo">
+        <div class="textfooter">
+            <p class="paragrphtext color-1">2020 Creative Commons. All rights reserved to Disney ©.</p>
+            <p class="paragrphtext color-1"> Marvel® OSCORP® Stark Industry® Rand Corp® Daily Bugle® AIM® S.H.I.E.L.D®, brands and logos are property of Disney DTC LLC, as a Delaware limited liability company, the licence for this site is under the section 2.A of <a href="https://disneytermsofuse.com/english/">Terms of Use</a> as a NONCOMMERCIAL use for educational propurses.</p>
+        </div>
+    </section>
+  </footer>
+</body>
 </html>

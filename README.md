@@ -63,10 +63,13 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- The original design is of [Cindy Shin](https://www.behance.net/adagio07)
+- Disney
+- Marvel
+
 
 ## 📝 License
 
+
 This project is no for sale, its only for educational propurses.
+Under the [Creative Commons license](https://creativecommons.org/licenses/by-nc/4.0/) - Credit to [Cindy Shin](https://www.behance.net/adagio07)
