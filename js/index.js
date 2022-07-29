@@ -1,5 +1,8 @@
+/* eslint-disable comma-dangle */
+/* eslint-disable semi */
 const speakers = document.getElementById('dinamic');
 const hamburger = document.getElementById('hamburguerlogo');
+const button = document.getElementById('closingbutton');
 const elementscontainer = document.getElementById('elements-container');
 const data = [
   {
@@ -56,7 +59,7 @@ hamburger.addEventListener('click', () => {
   document.getElementById('elements-container').classList.remove('nodisplay');
 });
 
-elementscontainer.addEventListener('click', () => {
+button.addEventListener('click', () => {
   elementscontainer.classList.toggle('nodisplay');
   document.querySelector('#hamburguerlogo').classList.toggle('nodisplay');
 });
